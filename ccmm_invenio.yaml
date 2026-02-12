@@ -1,0 +1,7 @@
+CCMMDataset:
+	properties:
+		provenances:
+			type: array
+			items:
+				type: CZBIActivityGeneral
+			min_items: 1
