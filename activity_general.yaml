@@ -1,18 +1,18 @@
 CZBIActivityGeneral:
-	type: polymorphic
-	discriminator: activity_type
-	oneof:
-		- discriminator: activity_synthesis
-			type: CZBIActivitySynthesis
-		- discriminator: activity_collection
-			type: CZBIActivityCollection
-		- discriminator: activity_sample_preparation
-			type: CZBIActivitySamplePreparation
-		- discriminator: activity_growth_protocol
-			type: CZBIActivityGrowthProtocol
-		- discriminator: activity_image_acquisition
-			type: CZBIActivityImageAcquisition
-		- discriminator: activity_image_processing
-			type: CZBIActivityImageProcessing
-		- discriminator: activity_image_analysis
-			type: CZBIActivityImageAnalysis
+  type: polymorphic
+  discriminator: activity_type
+  oneof:
+    - discriminator: activity_synthesis
+      type: CZBIActivitySynthesis
+    - discriminator: activity_collection
+      type: CZBIActivityCollection
+    - discriminator: activity_sample_preparation
+      type: CZBIActivitySamplePreparation
+    - discriminator: activity_growth_protocol
+      type: CZBIActivityGrowthProtocol
+    - discriminator: activity_image_acquisition
+      type: CZBIActivityImageAcquisition
+    - discriminator: activity_image_processing
+      type: CZBIActivityImageProcessing
+    - discriminator: activity_image_analysis
+      type: CZBIActivityImageAnalysis

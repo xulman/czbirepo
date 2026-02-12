@@ -1,8 +1,8 @@
 CZBIActivityImageAcquisition:
-	type: object
-	properties:
-		instrument_id:
-			type: int
-			label: Device
-			hint: ID from a list of available microscopes (for now)
-			required: true
+  type: object
+  properties:
+    instrument_id:
+      type: int
+      label: Device
+      hint: ID from a list of available microscopes (for now)
+      required: true

@@ -1,14 +1,14 @@
 CZBIActivityImageProcessing:
-	type: object
-	properties:
-		name:
-			type: fulltext+keyword
-			label: Short description
-			hint: Examples are Deconvolution, Denoising, Segmentation, etc.
-			required: true
-		description:
-			type: fulltext
-			label: Description
-			hint: Detailed explanation of the executed routine
-			help: Detailed explanation can be a github URL, or the code or macro itself
-			required: true
+  type: object
+  properties:
+    name:
+      type: fulltext+keyword
+      label: Short description
+      hint: Examples are Deconvolution, Denoising, Segmentation, etc.
+      required: true
+    description:
+      type: fulltext
+      label: Description
+      hint: Detailed explanation of the executed routine
+      help: Detailed explanation can be a github URL, or the code or macro itself
+      required: true
