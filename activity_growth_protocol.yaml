@@ -1,0 +1,26 @@
+CZBIActivityGrowthProtocol:
+	type: polymorphic
+	discriminator: growth_protocol_desc
+	oneof:
+		- discriminator: published_protocol
+			type: nested
+			properties:
+				title:
+					type: fulltext+keyword
+					label: Protocol title
+				reference:
+					type: keyword
+					label: Protocol URL
+					hint: URL or PID at which the protocol can be found
+					required: true
+		- discriminator: manual_description
+			type: object
+			properties:
+				title:
+					type: fulltext+keyword
+					label: Protocol title
+					required: true
+				description:
+					type: fulltext
+					label: Protocol description
+					required: true
