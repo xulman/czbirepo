@@ -17,13 +17,13 @@ Metadata:
     specimen:
       type: CZBISpecimen
       required: true
-    sample_prep:
+    sample_preparation:
       type: array
       items:
         type: CZBIActivitySamplePreparation
       # i kdyby to pole melo byt prazdne, necht je tam vzdy explicitne uvedeno
       required: true
-    scopes:
+    image_acquisition:
       type: CZBIActivityImageAcquisition
       required: true
 # ------------------------------

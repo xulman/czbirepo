@@ -32,7 +32,7 @@
       "taxon": "Nejtesnejsi taxon na zaby",
       "additional_info": "Zoopus legs model system, z kolekce snimku pri hostovani Franty"
     },
-    "sample_prep": [
+    "sample_preparation": [
       {
         "protocol_type": "disekce basalni steny",
         "description": "pouzil se standardni disekcni postup,\ncili to se udelalo tohle a potom tamto",
@@ -44,7 +44,7 @@
         "additional_info": "N/A"
       }
     ],
-    "scopes": {
+    "image_acquisition": {
       "imaging_type": "Confocal Microscopy",
       "instrument": "(42) Olympus XYZ, 543 nm laser od QW, Hamamatsu ERTY kamera, etc",
       "additional_info": "10x objektiv, kdovijaky coverglass"
