@@ -1,0 +1,53 @@
+{
+  "access": {
+    "record": "public",
+    "files": "public"
+  },
+  "files": {
+    "enabled": false
+  },
+  "metadata": {
+    "title": "Vlado's record4",
+    "publication_date": "2026-03-10",
+    "resource_type": {
+      "id": "c_ddb1"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Brown",
+          "given_name": "Troy",
+          "type": "personal"
+        }
+      }
+    ],
+
+    "specimen": {
+      "specimen_name": "stehenni bunka, exp #4/6",
+      "specimen_is": "Muscle Cell",
+      "specimen_part_of": [
+        "Muscle system",
+        "Frog animal system"
+      ],
+      "taxon": "Nejtesnejsi taxon na zaby",
+      "additional_info": "Zoopus legs model system, z kolekce snimku pri hostovani Franty"
+    },
+    "sample_preparation": [
+      {
+        "protocol_type": "disekce basalni steny",
+        "description": "pouzil se standardni disekcni postup,\ncili to se udelalo tohle a potom tamto",
+        "additional_info": "tentokrat se pouzil red skalpel"
+      },
+      {
+        "protocol_type": "immuno barveni",
+        "description": "dle protokolu na tomto URL http://protocols.io/foo",
+        "additional_info": "N/A"
+      }
+    ],
+    "image_acquisition": {
+      "imaging_type": "Confocal Microscopy",
+      "instrument": "(42) Olympus XYZ, 543 nm laser od QW, Hamamatsu ERTY kamera, etc",
+      "additional_info": "10x objektiv, kdovijaky coverglass"
+    }
+  }
+}
