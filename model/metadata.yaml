@@ -85,9 +85,11 @@ CZBISpecimen:
       # to se prave doplnuje tady.
       #
       # Hodnoty se budou nabirat uplne stejne jako pro 'specimen_is'.
-      type: keyword
-      label: Additional biological entity
-      hint: Single-choice Dropbox ze seznamu od Vlada (TBA)
+      type: array
+      items:
+        type: keyword
+        label: Additional biological entity
+        hint: Single-choice Dropbox ze seznamu od Vlada (TBA)
     taxon:
       # Specimen je sice biologicka entita, ale ta je bud synteticka/umela
       # (coz je nyni z modelu vynechano) nebo pochazi z nejakeho existujiciho
